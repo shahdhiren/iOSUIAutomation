@@ -21,6 +21,14 @@
 		5BFDD0ED18598F4A0022632B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFDD0CF18598F4A0022632B /* UIKit.framework */; };
 		5BFDD0F518598F4A0022632B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BFDD0F318598F4A0022632B /* InfoPlist.strings */; };
 		5BFDD0F718598F4A0022632B /* iOSUIAutomationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDD0F618598F4A0022632B /* iOSUIAutomationTests.m */; };
+		5BFDD10A185993B70022632B /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDD108185993B70022632B /* TestViewController.m */; };
+		5BFDD10B185993B70022632B /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDD108185993B70022632B /* TestViewController.m */; };
+		5BFDD10C185993B70022632B /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BFDD109185993B70022632B /* TestViewController.xib */; };
+		5BFDD10D185993B70022632B /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BFDD109185993B70022632B /* TestViewController.xib */; };
+		5BFDD1111859945D0022632B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDD10F1859945D0022632B /* DetailViewController.m */; };
+		5BFDD1121859945D0022632B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDD10F1859945D0022632B /* DetailViewController.m */; };
+		5BFDD1131859945D0022632B /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BFDD1101859945D0022632B /* DetailViewController.xib */; };
+		5BFDD1141859945D0022632B /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BFDD1101859945D0022632B /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,12 @@
 		5BFDD0F218598F4A0022632B /* iOSUIAutomationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSUIAutomationTests-Info.plist"; sourceTree = "<group>"; };
 		5BFDD0F418598F4A0022632B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BFDD0F618598F4A0022632B /* iOSUIAutomationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSUIAutomationTests.m; sourceTree = "<group>"; };
+		5BFDD107185993B70022632B /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		5BFDD108185993B70022632B /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		5BFDD109185993B70022632B /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		5BFDD10E1859945D0022632B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5BFDD10F1859945D0022632B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5BFDD1101859945D0022632B /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +131,14 @@
 				5BFDD0DD18598F4A0022632B /* Main.storyboard */,
 				5BFDD0E018598F4A0022632B /* ViewController.h */,
 				5BFDD0E118598F4A0022632B /* ViewController.m */,
+				5BFDD107185993B70022632B /* TestViewController.h */,
+				5BFDD108185993B70022632B /* TestViewController.m */,
+				5BFDD109185993B70022632B /* TestViewController.xib */,
 				5BFDD0E318598F4A0022632B /* Images.xcassets */,
 				5BFDD0D218598F4A0022632B /* Supporting Files */,
+				5BFDD10E1859945D0022632B /* DetailViewController.h */,
+				5BFDD10F1859945D0022632B /* DetailViewController.m */,
+				5BFDD1101859945D0022632B /* DetailViewController.xib */,
 			);
 			path = iOSUIAutomation;
 			sourceTree = "<group>";
@@ -230,6 +250,8 @@
 			files = (
 				5BFDD0E418598F4A0022632B /* Images.xcassets in Resources */,
 				5BFDD0D618598F4A0022632B /* InfoPlist.strings in Resources */,
+				5BFDD1131859945D0022632B /* DetailViewController.xib in Resources */,
+				5BFDD10C185993B70022632B /* TestViewController.xib in Resources */,
 				5BFDD0DF18598F4A0022632B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +260,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BFDD10D185993B70022632B /* TestViewController.xib in Resources */,
+				5BFDD1141859945D0022632B /* DetailViewController.xib in Resources */,
 				5BFDD0F518598F4A0022632B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BFDD1111859945D0022632B /* DetailViewController.m in Sources */,
 				5BFDD0E218598F4A0022632B /* ViewController.m in Sources */,
 				5BFDD0DC18598F4A0022632B /* AppDelegate.m in Sources */,
+				5BFDD10A185993B70022632B /* TestViewController.m in Sources */,
 				5BFDD0D818598F4A0022632B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BFDD10B185993B70022632B /* TestViewController.m in Sources */,
 				5BFDD0F718598F4A0022632B /* iOSUIAutomationTests.m in Sources */,
+				5BFDD1121859945D0022632B /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +488,7 @@
 				5BFDD0FC18598F4A0022632B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BFDD0FD18598F4A0022632B /* Build configuration list for PBXNativeTarget "iOSUIAutomationTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +497,7 @@
 				5BFDD0FF18598F4A0022632B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
