@@ -106,7 +106,8 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "echo &quot;Post-actions: My Project Path:....... $(PROJECT_DIR)&quot;">
+               scriptText = "echo &quot;Post-actions: My Project Path:....... $(PROJECT_DIR)&quot;"
+               shellToInvoke = "/bin/bash">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
