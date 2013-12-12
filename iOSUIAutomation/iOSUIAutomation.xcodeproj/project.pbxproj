@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B29CE3618599B5700650126 /* Automation.js in Sources */ = {isa = PBXBuildFile; fileRef = 5B29CE3518599B5700650126 /* Automation.js */; };
+		5B29CE3718599B5700650126 /* Automation.js in Sources */ = {isa = PBXBuildFile; fileRef = 5B29CE3518599B5700650126 /* Automation.js */; };
 		5BFDD0CC18598F4A0022632B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFDD0CB18598F4A0022632B /* Foundation.framework */; };
 		5BFDD0CE18598F4A0022632B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFDD0CD18598F4A0022632B /* CoreGraphics.framework */; };
 		5BFDD0D018598F4A0022632B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFDD0CF18598F4A0022632B /* UIKit.framework */; };
@@ -42,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B29CE3518599B5700650126 /* Automation.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Automation.js; sourceTree = "<group>"; };
 		5BFDD0C818598F4A0022632B /* iOSUIAutomation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSUIAutomation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BFDD0CB18598F4A0022632B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5BFDD0CD18598F4A0022632B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -150,6 +153,7 @@
 				5BFDD0D418598F4A0022632B /* InfoPlist.strings */,
 				5BFDD0D718598F4A0022632B /* main.m */,
 				5BFDD0D918598F4A0022632B /* iOSUIAutomation-Prefix.pch */,
+				5B29CE3518599B5700650126 /* Automation.js */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -278,6 +282,7 @@
 				5BFDD0DC18598F4A0022632B /* AppDelegate.m in Sources */,
 				5BFDD10A185993B70022632B /* TestViewController.m in Sources */,
 				5BFDD0D818598F4A0022632B /* main.m in Sources */,
+				5B29CE3618599B5700650126 /* Automation.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BFDD10B185993B70022632B /* TestViewController.m in Sources */,
+				5B29CE3718599B5700650126 /* Automation.js in Sources */,
 				5BFDD0F718598F4A0022632B /* iOSUIAutomationTests.m in Sources */,
 				5BFDD1121859945D0022632B /* DetailViewController.m in Sources */,
 			);
