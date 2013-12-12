@@ -412,10 +412,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mehul Patel (977Y7LR8ZR)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSUIAutomation/iOSUIAutomation-Prefix.pch";
 				INFOPLIST_FILE = "iOSUIAutomation/iOSUIAutomation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3186E03D-912E-440D-A978-C87312260195";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -425,10 +427,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mehul Patel (977Y7LR8ZR)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSUIAutomation/iOSUIAutomation-Prefix.pch";
 				INFOPLIST_FILE = "iOSUIAutomation/iOSUIAutomation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3186E03D-912E-440D-A978-C87312260195";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
