@@ -36,6 +36,7 @@
 }
 
 - (IBAction)btnClickHerePressed:(id)sender {
+    self.lblText.text = @"You successfully updated the label";
 }
 
 @end

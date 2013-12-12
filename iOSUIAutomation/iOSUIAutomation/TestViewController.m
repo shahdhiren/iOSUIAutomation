@@ -7,6 +7,7 @@
 //
 
 #import "TestViewController.h"
+#import "DetailViewController.h"
 
 @interface TestViewController ()
 
@@ -37,6 +38,9 @@
 
 - (IBAction)btnNextPressed:(id)sender
 {
+    DetailViewController *detail = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
+    [detail.view setBackgroundColor:[UIColor magentaColor]];
+    [self presentViewController:detail animated:YES completion:nil];
 }
 
 @end

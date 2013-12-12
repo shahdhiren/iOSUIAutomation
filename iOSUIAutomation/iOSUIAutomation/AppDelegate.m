@@ -13,6 +13,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    //    NSLog(@"window Frame : %@",NSStringFromCGRect(self.window.frame));
+    self.controller = [[TestViewController alloc] initWithNibName:@"TestViewController" bundle:nil];
+
+    self.window.rootViewController = self.controller;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 							
