@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4FDC672C-7AEE-471F-AA42-CA6CE07C2D03</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iOSUIAutomation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7727BF08-8D3B-4299-8B86-D439E84EB89B</key>
+		<string>ssh://github.com/shahdhiren/iOSUIAutomation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOSUIAutomation/iOSUIAutomation.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7727BF08-8D3B-4299-8B86-D439E84EB89B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/shahdhiren/iOSUIAutomation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7727BF08-8D3B-4299-8B86-D439E84EB89B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7727BF08-8D3B-4299-8B86-D439E84EB89B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSUIAutomation</string>
+		</dict>
+	</array>
+</dict>
+</plist>
